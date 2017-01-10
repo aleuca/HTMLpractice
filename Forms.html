@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width", initial scale="2">
+  <!-- <link rel="stylesheet" type="text/css" href="dogs.css"> -->
+  <title>Forms</title>
+</head>
+<body>
+   <!-- action="http://wikipedia.org" method="GET" -->
+  <form>
+    <!-- <label for="email">Email:</label>
+    <input id="email" type="email" placeholder="email" required>
+    <label for="password">Password:</label>
+    <input id= "password" type="password" placeholder="password" required>
+    <input type="submit"> -->
+    <p>Do you prefer cats or dogs?</p>
+    <label for "dogs">dogs</label>
+    <input name="petChoice" id="dogs" type="radio" value="dogs">
+    <label for "cats">cats</label>
+    <input name="petChoice" id="cats" type="radio" value="cats">
+    <select name="currentMood">
+      <option value="happy">:)</option>
+      <option value="neutral">:|</option>
+      <option calue="sad">:(</option>
+    </select>
+    <p>Please submit your Cover Letter</p>
+    <textarea name="coverLetter" value="submitted" rows="10" cols="13" placeholder="cover letter"></textarea>
+    <button>Submit</button>
+  </form>
+</body>
+</html>
